@@ -18,7 +18,7 @@ void inputData(kos data[], int n) {
         cout << "\nInput data kos ke-" << i + 1 << ":\n";
         cout << "Nama kos-kosan: ";
         getline(cin, data[i].nama);
-        cout << "Jarak dari kantor (km): ";
+        cout << "Jarak dari kampus (km): ";
         cin >> data[i].jarak;
         cout << "Harga sewa per bulan: ";
         cin >> data[i].harga;
